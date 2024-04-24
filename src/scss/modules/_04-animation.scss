@@ -1,0 +1,33 @@
+.animations {
+    .spinner {
+        animation: infinite spinne linear 1s;
+    }
+
+    .progress-inner {
+        animation: infinite progress-inner 4s;
+    }
+
+
+
+
+    @keyframes spinne {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes progress-inner {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 100%;
+        }
+        100% {
+            width: 0%;
+        }
+    }
+}

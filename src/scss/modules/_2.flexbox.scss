@@ -1,0 +1,27 @@
+.flexbox {
+  .wrapper-1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .wrapper-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .wrapper-4 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .wrapper-4 .box {
+    width: 50%;
+  }
+}

@@ -1,0 +1,22 @@
+.transitions {
+    .calltoaction:hover {
+        transform: scale(115%);
+        transition: all 0.5s;
+    }
+
+    .button:hover {
+        color: white;
+        background: #00b256;
+        transition: all 0.3s;
+    }
+
+    .card:hover {
+        background: #00b29d;
+        transition: all 0.3s;
+    }
+
+    .card:hover .card-title {
+        margin-left: 10px;
+        transition: all 0.3s;
+    }
+}

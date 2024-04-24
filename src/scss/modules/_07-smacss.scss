@@ -1,0 +1,42 @@
+.instructions {
+    padding: 15px 20px;
+    margin-bottom: 40px;
+    background: #eee;
+    line-height: 1.5;
+  
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+  }
+  
+  .instructions-wrapper {
+    border: 1px solid #000;
+  }
+  
+  .breakpoint {
+    width: 40px;
+    background: #eee;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+  }
+  
+  .container + .breakpoint {
+    margin-top: 40px;
+  }
+  
+  .breakpoint-2 {
+    width: 80px;
+    background: #eee;
+    margin: 0 auto 10px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+  }
+  
+  .article + .breakpoint-2 {
+    margin-top: 20px;
+  }
+  
